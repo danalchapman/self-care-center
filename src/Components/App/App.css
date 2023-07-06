@@ -1,0 +1,13 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    overflow-x: scroll;
+    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+}
+
+.main-container::-webkit-scrollbar {
+    display: none;
+}
