@@ -1,5 +1,6 @@
 import React from 'react'
 import { Header } from '../Header/Header'
+import { Footer } from '../Footer/Footer'
 import './App.css'
 
 export const App = () => {
@@ -7,7 +8,7 @@ export const App = () => {
     <main>
       <Header />
       {/* Center */}
-      {/* Footer */}
+      <Footer />
     </main>
   );
 }
